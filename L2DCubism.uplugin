@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.5",
+	"FriendlyName": "L2DCubism",
+	"Description": "Live2D Cubism Plugin for UE4",
+	"Category": "2D",
+	"CreatedBy": "demuyan",
+	"CreatedByURL": "https://github.com/demuyan/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+  "Modules": [
+    {
+      "Name": "L2DCubism",
+      "Type": "Runtime",
+      "LoadingPhase": "PostConfigInit"
+    },
+    {
+      "Name": "L2DCubismEd",
+      "Type": "Editor",
+      "LoadingPhase": "PreDefault"
+    }
+  ]
+}
